@@ -24,6 +24,7 @@ public class StudentController {
 
     @GetMapping("/students")
     public List<Student> getAllStudent() {
+        System.out.println("temp");
         return studentService.findAll();
     }
 
